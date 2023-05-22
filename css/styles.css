@@ -1,0 +1,190 @@
+/* HTML Selectors */
+body {
+    color: white;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1{
+    color: white;
+    font-size: 1.25rem;
+    padding-left: 7%;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+
+h3{
+    color: hsl(178, 100%, 50%);
+    font-size: 1rem;
+    font-style: strong;
+    padding-left: 7%;
+
+}
+
+h5{
+    font-size: 1rem;
+    text-align: right;
+    padding-right: 7%;
+}
+
+h6{
+    font-size: 14px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+hr {
+    margin: auto;
+    width: 80%;
+}
+
+img {
+    padding-top: 7%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    margin: 0;
+    border-radius: 0.5rem;
+}
+
+p {
+    font-size: 16px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+svg {
+    margin: 5px;
+}
+
+/* Class Selectors */
+
+.container {
+    width: 30%;
+    height: 50%;
+    margin: 5%;
+    padding: auto;
+}
+
+.creator {
+    color: white;
+    cursor: pointer;
+}
+
+.creator:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+
+
+.creator-img {
+    border-radius: 50%;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    padding: 1px;
+}
+
+
+.creator-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.inner-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-card {
+    width: 340px;
+    height: 340px;
+
+}
+.nft-card-container {
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px hsla(0, 0%, 0%, 0.123);
+    display: inline-block;
+    height: 550px;
+    margin: auto;
+    margin-top: 15%;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+
+}
+
+
+.nft-icon {
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease;
+    -ms-transform: translate(-50%, -300%);
+}
+
+.nft-img {
+    opacity: 1;
+    width: 340px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+    border-radius: 10%;
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+.nft-img:hover {
+    opacity: 0.3;
+}
+
+
+.nft-info {
+    align-items: left;
+}
+
+.overlay {
+    opacity: 0;
+    background-color: hsla(178, 100%, 50%, 0.514);
+    position: absolute;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 300px;
+    border-radius: 10px;
+    transform: translate(7%, -103%);
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+/* ID Selectors */
+
+
+
+
+
